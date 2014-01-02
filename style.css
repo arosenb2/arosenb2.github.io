@@ -24,3 +24,6 @@ body {
 	padding:20px 0;
 }
 
+footer p:last-child{
+	text-align:right;
+}
