@@ -8,10 +8,15 @@
 	
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-title" content="Rosenbaum">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" id="status-bar">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<meta name="mobile-web-app-capable" content="yes"> <!-- For Android Users -->
+	<style type="text/css">
+		#status-bar{position:fixed;top:0;left:0;right:0;height:20px;}
+		#wrap{margin-top:20px;}
+	</style>
 </head>
 <body ng-controller="MainCtrl">
+	<section id="status-bar"></section>
 	<section id="wrap">
 		<nav id="landing">
 			<div class="main-nav">
