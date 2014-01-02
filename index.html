@@ -9,30 +9,33 @@
 	<link href="/style.css" rel="stylesheet">
 </head>
 <body ng-controller="MainCtrl">
-	<nav id="landing" class="container">
-		<div class="row main-nav">
-			<div class="col-xs-6 col-sm-3"><a ng-click="showSummary()">Summary</a></div>
-			<div class="col-xs-6 col-sm-3"><a ng-click="showTech()">Technologies</a></div>
-			<div class="col-xs-6 col-sm-3"><a ng-click="showScreenshots()">Screenshots</a></div>
-			<div class="col-xs-6 col-sm-3"><a ng-click="showResume()">Resume</a></div>
-		</div><!--.row-->
-		<div id="summary" class="row" ng-show="summary">
-			<p>Summary page</p>
-			<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+	<section id="wrap">
+		<nav id="landing" class="container">
+			<div class="row main-nav">
+				<div class="col-xs-6 col-sm-3"><a ng-click="showSummary()">Summary</a></div>
+				<div class="col-xs-6 col-sm-3"><a ng-click="showTech()">Technologies</a></div>
+				<div class="col-xs-6 col-sm-3"><a ng-click="showScreenshots()">Screenshots</a></div>
+				<div class="col-xs-6 col-sm-3"><a ng-click="showResume()">Resume</a></div>
+			</div>
+			<div id="summary" class="row" ng-show="summary">
+				<p>Summary page</p>
+				<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+			</div>
+			<div id="tech" class="row" ng-show="tech">
+				<p>Technologies page</p>
+				<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+			</div>
+			<div id="screenshots" class="row" ng-show="screenshots">
+				<p>Screenshots page</p>
+				<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+			</div>
+			<div id="resume" class="row" ng-show="resume">
+				<p>Resume page</p>
+				<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+			</div>
 		</div>
-		<div id="tech" class="row" ng-show="tech">
-			<p>Technologies page</p>
-			<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
-		</div>
-		<div id="screenshots" class="row" ng-show="screenshots">
-			<p>Screenshots page</p>
-			<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
-		</div>
-		<div id="resume" class="row" ng-show="resume">
-			<p>Resume page</p>
-			<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
-		</div>
-	</div><!--#landing-->
+	</section>
+	
 	<footer class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
