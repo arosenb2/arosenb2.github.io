@@ -16,10 +16,22 @@
 			<div class="col-xs-6 col-sm-3"><a ng-click="showScreenshots()">Screenshots</a></div>
 			<div class="col-xs-6 col-sm-3"><a ng-click="showResume()">Resume</a></div>
 		</div><!--.row-->
-		<div id="summary" class="row" ng-show="summary">Summary page</div>
-		<div id="tech" class="row" ng-show="tech">Summary page</div>
-		<div id="screenshots" class="row" ng-show="screenshots">Summary page</div>
-		<div id="resume" class="row" ng-show="resume">Summary page</div>
+		<div id="summary" class="row" ng-show="summary">
+			<p>Summary page</p>
+			<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+		</div>
+		<div id="tech" class="row" ng-show="tech">
+			<p>Technologies page</p>
+			<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+		</div>
+		<div id="screenshots" class="row" ng-show="screenshots">
+			<p>Screenshots page</p>
+			<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+		</div>
+		<div id="resume" class="row" ng-show="resume">
+			<p>Resume page</p>
+			<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+		</div>
 	</div><!--#landing-->
 	<footer class="container">
 		<div class="row">
