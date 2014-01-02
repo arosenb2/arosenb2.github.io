@@ -10,8 +10,6 @@
 	<meta name="apple-mobile-web-app-title" content="Rosenbaum">
 	<meta name="apple-touch-fullscreen" content="yes">
 	<meta name="mobile-web-app-capable" content="yes"> <!-- For Android Users -->
-	
-	<link href="/style.min.css" rel="stylesheet">
 </head>
 <body ng-controller="MainCtrl">
 	<section id="wrap">
@@ -107,8 +105,17 @@
 			</div>	
 		</div>
 	</footer>
+	<script type="text/javascript">
+		function addStylesheet(link){
+			var stylesheet = document.createElement("link");
+			stylesheet.href = link;
+			stylesheet.rel = "stylesheet";
+			document.getElementsByTagName('head')[0].appendChild(stylesheet);
+		}
+		addStylesheet("/style.min.css");
+		addStylesheet("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
+	</script>
 	
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>-->
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
