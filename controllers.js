@@ -1,12 +1,18 @@
 var app = angular.module("app",[]);
 
 app.controller("MainCtrl", function($scope){
+	$scope.main = true;
 	$scope.summary = false;
 	$scope.tech = false;
 	$scope.screenshots = false;
 	$scope.resume = false;
 	
+	$scope.back = function(){
+		$scope.resetPages();
+		$scope.main = true;
+	}
 	$scope.resetPages = function(){
+		$scope.main = false;
 		$scope.summary = false;
 		$scope.tech = false;
 		$scope.screenshots = false;
