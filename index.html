@@ -12,10 +12,10 @@
 	<section id="wrap">
 		<nav id="landing" class="container">
 			<div class="row main-nav">
-				<div class="col-xs-6 col-sm-3"><a ng-click="showSummary()"><i class="fa fa-user"></i> About</a></div>
-				<div class="col-xs-6 col-sm-3"><a ng-click="showTech()"><i class="fa fa-code"></i> Technologies</a></div>
-				<div class="col-xs-6 col-sm-3"><a ng-click="showScreenshots()"><i class="fa fa-folder-open"></i> Portfolio</a></div>
-				<div class="col-xs-6 col-sm-3"><a ng-click="showResume()"><i class="fa fa-inbox"></i> Resume</a></div>
+				<div class="col-xs-6 col-sm-3" ng-class="{active:summary}"><a ng-click="showSummary()"><i class="fa fa-user"></i> About</a></div>
+				<div class="col-xs-6 col-sm-3" ng-class="{active:tech}"><a ng-click="showTech()"><i class="fa fa-code"></i> Technologies</a></div>
+				<div class="col-xs-6 col-sm-3" ng-class="{active:screenshots}"><a ng-click="showScreenshots()"><i class="fa fa-folder-open"></i> Portfolio</a></div>
+				<div class="col-xs-6 col-sm-3" ng-class="{active:resume}"><a ng-click="showResume()"><i class="fa fa-inbox"></i> Resume</a></div>
 			</div>
 			<div id="summary" class="row" ng-show="summary">
 				<p>Summary page</p>
