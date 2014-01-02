@@ -1,4 +1,4 @@
 arosenb2.github.io
 ==================
 
-Digital portfolio for Aaron Rosenbaum
+My digital showcase for all the world to see.
