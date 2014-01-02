@@ -35,7 +35,6 @@ body {
 }
 footer{
 	height:40px;
-	margin-left:-15px !important;
 }
 footer .col-sm-6:last-child{
 	text-align:right;
