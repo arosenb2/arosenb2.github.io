@@ -10,13 +10,15 @@
 </head>
 <body ng-controller="MainCtrl">
 	<section id="wrap">
-		<nav id="landing" class="container">
-			<div class="row main-nav">
+		<nav id="landing">
+			<div class="main-nav">
 				<div class="col-xs-6 col-sm-3" ng-class="{active:summary}"><a ng-click="showSummary()"><i class="fa fa-user"></i> About</a></div>
 				<div class="col-xs-6 col-sm-3" ng-class="{active:tech}"><a ng-click="showTech()"><i class="fa fa-code"></i> Technologies</a></div>
 				<div class="col-xs-6 col-sm-3" ng-class="{active:screenshots}"><a ng-click="showScreenshots()"><i class="fa fa-folder-open"></i> Portfolio</a></div>
 				<div class="col-xs-6 col-sm-3" ng-class="{active:resume}"><a ng-click="showResume()"><i class="fa fa-inbox"></i> Resume</a></div>
 			</div>
+		</nav>
+		<div class="container">
 			<div id="summary" class="row" ng-show="summary">
 				<p>Summary page</p>
 				<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
@@ -65,7 +67,7 @@
 		</div>
 	</section>
 	
-	<footer class="container">
+	<footer>
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
 				<p>&copy; Aaron Rosenbaum, 2014</p>
