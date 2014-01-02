@@ -14,22 +14,22 @@ app.controller("MainCtrl", function($scope){
 	}
 	
 	$scope.showSummary = function(){
-		resetPages();
+		$scope.resetPages();
 		$scope.summary = true;
 	};
 	
 	$scope.showTech = function(){
-		resetPages();
+		$scope.resetPages();
 		$scope.tech = true;
 	};
 	
 	$scope.showScreenshots = function(){
-		resetPages();
+		$scope.resetPages();
 		$scope.screenshots = true;
 	};
 	
 	$scope.showResume = function(){
-		resetPages();
+		$scope.resetPages();
 		$scope.resume = true;
 	};
 	
