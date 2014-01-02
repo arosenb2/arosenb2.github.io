@@ -8,7 +8,7 @@
 	
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-title" content="Rosenbaum">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" id="status-bar">
 	<meta name="mobile-web-app-capable" content="yes"> <!-- For Android Users -->
 </head>
 <body ng-controller="MainCtrl">
@@ -114,6 +114,11 @@
 		}
 		addStylesheet("/style.min.css");
 		addStylesheet("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
+		
+		if (window.navigator.standalone){
+			var el = document.getElementById('status-bar');
+			el.parentNode.removeChild(el);
+		}
 	</script>
 	
 	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
