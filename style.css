@@ -12,7 +12,7 @@ body {
 	min-height:100%;
 	height:auto;
 	margin:0 auto -65px;
-	padding:0 0 75px;
+	padding:0 0 85px;
 }
 .main-nav div{
 	/*background:#0af;*/
@@ -42,7 +42,7 @@ body {
 	color:#fff;
 }
 footer{
-	height:65px;
+	height:75px;
 	padding:10px 15px;
 	background:#333;
 	color:#ddd;
