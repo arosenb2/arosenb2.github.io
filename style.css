@@ -41,6 +41,9 @@ body {
 .main-nav div.active a{
 	color:#fff;
 }
+.close{
+	padding-top:5px;
+}
 footer{
 	height:75px;
 	padding:10px 15px;
