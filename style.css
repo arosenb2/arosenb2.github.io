@@ -8,6 +8,9 @@ body {
 	border-left:1px solid #fff;
 	border-bottom:1px solid #fff;
 }
+.main-nav div:first-child{
+	border-left:none;
+}
 .main-nav a{
 	display:block;
 	width:100%;
