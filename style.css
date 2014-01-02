@@ -4,7 +4,7 @@ html,body {
 #wrap {
 	min-height:100%;
 	height:auto;
-	margin:0 auto -75px;
+	margin:0 auto -65px;
 	padding:0 0 75px;
 }
 
@@ -35,7 +35,9 @@ body {
 }
 footer{
 	height:65px;
-	padding:10px 15px 0;
+	padding:10px 15px;
+	background:#333;
+	color:#ddd;
 }
 footer .col-sm-6:last-child{
 	text-align:right;
