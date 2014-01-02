@@ -1,5 +1,5 @@
 var app = angular.module("app",[]);
 
-app.controller("LandingCtrl", function($scope){
+app.controller("MainCtrl", function($scope){
 	$scope.summary = false;
 });
