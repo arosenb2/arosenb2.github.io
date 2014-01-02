@@ -21,9 +21,38 @@
 				<p>Summary page</p>
 				<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
 			</div>
-			<div id="tech" class="row" ng-show="tech">
-				<p>Technologies page</p>
-				<a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a>
+			<div id="tech" ng-show="tech">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>Technologies <small class="pull-right"><a ng-click="resetPages()"><i class="fa fa-times"></i> Close</a></small></h2>
+					</div>
+					<div class="col-xs-12">
+						<p class="lead">No matter what the job is, it is always essential to have the right tools.</p>
+					</div>
+					<div class="col-xs-12">
+						<p>Listed below are the languages, frameworks and components I use to find success.</p>
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<h3>Front-End</h3>
+						<ul>
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>jQuery</li>
+							<li>Angular.js</li>
+							<li>Twitter Bootstrap</li>
+							<li>960 Grid</li>
+							<li>Font Awesome</li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h3>Server-Side</h3>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h3>Mobile</h3>
+					</div>
+				</div>
 			</div>
 			<div id="screenshots" class="row" ng-show="screenshots">
 				<p>Screenshots page</p>
