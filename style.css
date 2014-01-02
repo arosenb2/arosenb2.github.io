@@ -28,14 +28,17 @@ body {
 .main-nav div.active{
 	/*background:#0f8;*/
 	background:#0af;
-	color:#fff;
 }
 
 .main-nav a{
 	display:block;
+	color:#ddd;
 	width:100%;
 	height:100%;
 	padding:20px 0;
+}
+.main-nav div.active a{
+	color:#fff;
 }
 footer{
 	height:65px;
