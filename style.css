@@ -11,6 +11,11 @@ body {
 .main-nav div:first-child{
 	border-left:none;
 }
+@media screen and (max-width: 767px){
+	.main-nav div:nth-child(3){
+		border-left:none;
+	}
+}
 .main-nav a{
 	display:block;
 	width:100%;
