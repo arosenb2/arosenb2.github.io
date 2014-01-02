@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="portfolio">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>aaronrosenbaum</title>
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-<link href="/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>aaronrosenbaum</title>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/style.css" rel="stylesheet">
 </head>
 <body ng-controller="main">
-<div id="landing" class="container">
-<div class="row main-nav">
-<div class="col-xs-6 col-sm-3"><a href="#summary">summary</a></div>
-<div class="col-xs-6 col-sm-3"><a href="#tech">technologies</a></div>
-<div class="col-xs-6 col-sm-3"><a href="#screenshots">screenshots</a></div>
-<div class="col-xs-6 col-sm-3"><a href="#resume">resume</a></div>
-</div><!--.row-->
-</div><!--#landing-->
-<div id="summary" class="container" ng-show="summary">Summary page</div>
-<script src="//cdnjs.cloudfare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudfare.com/ajax/libs/angular.js/1.2.5/angular.min.js"></script>
-<script src="/controllers.js"></script>
+	<div id="landing" class="container">
+		<div class="row main-nav">
+			<div class="col-xs-6 col-sm-3"><a href="#summary">summary</a></div>
+			<div class="col-xs-6 col-sm-3"><a href="#tech">technologies</a></div>
+			<div class="col-xs-6 col-sm-3"><a href="#screenshots">screenshots</a></div>
+			<div class="col-xs-6 col-sm-3"><a href="#resume">resume</a></div>
+		</div><!--.row-->
+		<div id="summary" class="row" ng-show="summary">Summary page</div>
+	</div><!--#landing-->
+	<script src="//cdnjs.cloudfare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudfare.com/ajax/libs/angular.js/1.2.5/angular.min.js"></script>
+	<script src="/controllers.js"></script>
 </body>
 </html>
