@@ -9,15 +9,21 @@
 	<link href="/style.css" rel="stylesheet">
 </head>
 <body ng-controller="MainCtrl">
-	<div id="landing" class="container">
+	<nav id="landing" class="container">
 		<div class="row main-nav">
-			<div class="col-xs-6 col-sm-3"><a href="#summary">summary</a></div>
-			<div class="col-xs-6 col-sm-3"><a href="#tech">technologies</a></div>
-			<div class="col-xs-6 col-sm-3"><a href="#screenshots">screenshots</a></div>
-			<div class="col-xs-6 col-sm-3"><a href="#resume">resume</a></div>
+			<div class="col-xs-6 col-sm-3"><a href="#summary">Summary</a></div>
+			<div class="col-xs-6 col-sm-3"><a href="#tech">Technologies</a></div>
+			<div class="col-xs-6 col-sm-3"><a href="#screenshots">Screenshots</a></div>
+			<div class="col-xs-6 col-sm-3"><a href="#resume">Resume</a></div>
 		</div><!--.row-->
 		<div id="summary" class="row" ng-show="summary">Summary page</div>
 	</div><!--#landing-->
+	<footer>
+		<ul>
+			<li>&copy; Aaron Rosenbaum, 2014</li>
+			<li><a href="https://twitter.com/aaronrosenbaum" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @aaronrosenbaum</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+		</ul>
+	</footer>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
