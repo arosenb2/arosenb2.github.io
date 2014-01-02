@@ -1,18 +1,19 @@
 html,body {
 	height:100%;
 }
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	background:url(//subtlepatterns.com/patterns/texturetastic_gray.png);
+}
+
 #wrap {
 	min-height:100%;
 	height:auto;
 	margin:0 auto -65px;
 	padding:0 0 75px;
 }
-
-body {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-weight: 300;
-}
-
 .main-nav div{
 	/*background:#0af;*/
 	background:#333;
