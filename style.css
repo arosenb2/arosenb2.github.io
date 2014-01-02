@@ -12,6 +12,7 @@ body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-weight: 300;
 }
+
 .main-nav div{
 	background:#0af;
 	text-align:center;
@@ -20,6 +21,9 @@ body {
 }
 .main-nav div:first-child{
 	border-left:none;
+}
+.main-nav div.active{
+	background:#0fa;	
 }
 
 .main-nav a{
