@@ -117,8 +117,8 @@
 						<p>At the end of the day, we all want to tell a story. Part of my story is through the work I do. Each of these projects represent different facets of my skills and the potential I bring to the table.</p>
 					</div>
 				</div>
-				<div class="row" ng-repeat="project in portfolio">
-					<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="project in portfolio">
 						<img ng-src="{{project.src}}" alt="{{project.title}}" title="{{project.description}}" class="img-responsive" />
 						<p class="text-center">{{project.title}}</p>
 					</div>
