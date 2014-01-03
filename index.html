@@ -17,10 +17,10 @@
 	<section id="wrap">
 		<nav id="landing">
 			<div class="main-nav">
-				<div class="col-xs-6 col-sm-3" ng-class="{active:summary}"><a ng-click="showSummary()"><i class="fa fa-user"></i> About</a></div>
-				<div class="col-xs-6 col-sm-3" ng-class="{active:tech}"><a ng-click="showTech()"><i class="fa fa-code"></i> Technologies</a></div>
-				<div class="col-xs-6 col-sm-3" ng-class="{active:screenshots}"><a ng-click="showScreenshots()"><i class="fa fa-folder-open"></i> Portfolio</a></div>
-				<div class="col-xs-6 col-sm-3" ng-class="{active:resume}"><a ng-click="showResume()"><i class="fa fa-inbox"></i> R&eacute;sum&eacute;</a></div>
+				<div class="col-xs-6 col-sm-3" ng-class="{active:summary}"><a href="javascript:void(0);" ng-click="showSummary()"><i class="fa fa-user"></i> About</a></div>
+				<div class="col-xs-6 col-sm-3" ng-class="{active:tech}"><a href="javascript:void(0);" ng-click="showTech()"><i class="fa fa-code"></i> Technologies</a></div>
+				<div class="col-xs-6 col-sm-3" ng-class="{active:screenshots}"><a href="javascript:void(0);" ng-click="showScreenshots()"><i class="fa fa-folder-open"></i> Portfolio</a></div>
+				<div class="col-xs-6 col-sm-3" ng-class="{active:resume}"><a href="javascript:void(0);" ng-click="showResume()"><i class="fa fa-inbox"></i> R&eacute;sum&eacute;</a></div>
 			</div>
 		</nav>
 		<div class="container">
@@ -39,7 +39,7 @@
 			<div id="summary" ng-show="summary">
 				<div class="row">
 					<div class="col-xs-12">
-						<a class="close-section pull-right" ng-click="back()"><i class="fa fa-times"></i> Close</a>
+						<a href="javascript:void(0);" class="close-section pull-right" ng-click="back()"><i class="fa fa-times"></i> Close</a>
 						<h3>About Me</h3>
 						<p class="lead">Mind the gap.</p>
 						<p>This section is still a work in progress.</p>
@@ -49,7 +49,7 @@
 			<div id="tech" ng-show="tech">
 				<div class="row">
 					<div class="col-xs-12">
-						<a class="close-section pull-right" ng-click="back()"><i class="fa fa-times"></i> Close</a>
+						<a href="javascript:void(0);" class="close-section pull-right" ng-click="back()"><i class="fa fa-times"></i> Close</a>
 						<h2>Technologies</h2>
 					</div>
 					<div class="col-xs-12">
@@ -111,7 +111,7 @@
 			<div id="screenshots" ng-show="screenshots">
 				<div class="row">
 					<div class="col-xs-12">
-						<a class="close-section pull-right" ng-click="back()"><i class="fa fa-times"></i> Close</a>
+						<a href="javascript:void(0);" class="close-section pull-right" ng-click="back()"><i class="fa fa-times"></i> Close</a>
 						<h3>Digital Portfolio</h3>
 						<p class="lead">For your viewing pleasure, this is a collection of my best work.</p>
 						<p>At the end of the day, we all want to tell a story. Part of my story is through the work I do. Each of these projects represent different facets of my skills and the potential I bring to the table.</p>
@@ -127,7 +127,7 @@
 			<div id="resume" ng-show="resume">
 				<div class="row">
 					<div class="col-xs-12">
-						<a class="close-section pull-right" ng-click="back()"><i class="fa fa-times"></i> Close</a>
+						<a href="javascript:void(0);" class="close-section pull-right" ng-click="back()"><i class="fa fa-times"></i> Close</a>
 						<h3>R&eacute;sum&eacute;</h3>
 						<p class="lead">Mind the gap.</p>
 						<p>This section is still a work in progress.</p>
@@ -143,7 +143,7 @@
 				<p>&copy; Aaron Rosenbaum, 2014</p>
 			</div>
 			<div class="col-xs-12 col-sm-6">
-				<p><a href="https://twitter.com/aaronrosenbaum" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @aaronrosenbaum</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+				<p><a href="https://twitter.com/aaronrosenbaum" class="twitter-follow-button" data-show-count="false" data-lang="en" target="_blank">Follow @aaronrosenbaum</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 			</div>	
 		</div>
 	</footer>
