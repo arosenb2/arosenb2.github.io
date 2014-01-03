@@ -49,15 +49,15 @@ app.controller("MainCtrl", function($scope){
 		description: "Nursing Home Advisor (NHA) is an ongoing app that we expect to release in 2014 that helps individuals find the best nursing homes in the area, based on community data and surveys."
 	},{
 		title: "Vets Guide",
-		src: "//www.placekitten.com/600/400",
+		src: "//www.placekitten.com/650/450",
 		description: "This app for iPhone was used in a demo with the Department of Veteran's Affairs to help provide services to those who have returned from serving their country. It showed local and regional VA clinics, food pantries, etc."
 	},{
 		title: "CGI IQ Suite &reg; Scribe",
-		src: "//www.placekitten.com/g/600/400",
+		src: "//www.placekitten.com/g/700/500",
 		description: "Scribe is a specialty app I'm currently working on that combines advanced note taking capabilities with the robustness of CGI IQ Suite &reg;. Features will include live writing through web sockets and synchronization with CGI IQ Suite &reg;"
 	},{
 		title: "arosenb2.github.io",
-		src: "//www.placekitten.com/600/400",
+		src: "//www.placekitten.com/660/460",
 		description: "I designed and coded this site you are currently on to help showcase my talent."
 	},{
 		title: "Highlands Fellowship Small Groups",
