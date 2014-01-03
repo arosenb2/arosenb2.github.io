@@ -61,7 +61,7 @@ app.controller("MainCtrl", function($scope){
 		description: "I designed and coded this site you are currently on to help showcase my talent."
 	},{
 		title: "Highlands Fellowship Small Groups",
-		src: "//www.placekitten.com/600/400",
+		src: "//www.placekitten.com/g/600/400",
 		description: "This is a personal project I'm working on for my church that aims to provide a social media experience for small groups, allowing them to meet online or facilitate in person meetings."
 	}];
 });
