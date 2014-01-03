@@ -56,6 +56,10 @@ app.controller("MainCtrl", function($scope){
 		src: "//www.placekitten.com/g/600/400",
 		description: "Scribe is a specialty app I'm currently working on that combines advanced note taking capabilities with the robustness of CGI IQ Suite &reg;. Features will include live writing through web sockets and synchronization with CGI IQ Suite &reg;"
 	},{
+		title: "arosenb2.github.io",
+		src: "//www.placekitten.com/600/400",
+		description: "I designed and coded this site you are currently on to help showcase my talent."
+	},{
 		title: "Highlands Fellowship Small Groups",
 		src: "//www.placekitten.com/600/400",
 		description: "This is a personal project I'm working on for my church that aims to provide a social media experience for small groups, allowing them to meet online or facilitate in person meetings."
