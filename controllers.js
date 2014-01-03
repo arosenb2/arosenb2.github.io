@@ -50,7 +50,7 @@ app.controller("MainCtrl", function($scope){
 	},{
 		title: "Vets Guide",
 		src: "//www.placekitten.com/600/400",
-		description: "This app for iPhone was used in a demo with the office of Veteran's Affairs to help provide services to those who have returned from serving their country. It showed local and regional VA clinics, food pantries, etc."
+		description: "This app for iPhone was used in a demo with the Department of Veteran's Affairs to help provide services to those who have returned from serving their country. It showed local and regional VA clinics, food pantries, etc."
 	},{
 		title: "CGI IQ Suite &reg; Scribe",
 		src: "//www.placekitten.com/g/600/400",
