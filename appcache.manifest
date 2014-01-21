@@ -24,4 +24,4 @@ NETWORK:
 *
 
 FALLBACK:
-/ /offline.html
+# / /offline.html
