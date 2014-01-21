@@ -5,8 +5,7 @@ CACHE MANIFEST
 CACHE:
 
 # Images
-http://raw.github.com/subtlepatterns/SubtlePatterns/gh-pages/texturetastic_gray.png
-https://raw.github.com/subtlepatterns/SubtlePatterns/gh-pages/texturetastic_gray.png
+http://arosenb2.github.io/bg.png
 
 # Internal HTML documents
 

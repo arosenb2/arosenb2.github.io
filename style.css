@@ -5,7 +5,7 @@ html,body {
 body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-weight: 300;
-	background:url(//raw.github.com/subtlepatterns/SubtlePatterns/gh-pages/texturetastic_gray.png); /* Credits to SubtlePatterns.com */
+	background:url(bg.png); /* Credits to SubtlePatterns.com */
 }
 
 #wrap {
