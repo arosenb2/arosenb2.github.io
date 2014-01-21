@@ -63,10 +63,9 @@ app.controller("MainCtrl", function($scope){
 		title: "Highlands Fellowship Small Groups",
 		src: "//www.placekitten.com/g/600/400",
 		description: "This is a personal project I'm working on for my church that aims to provide a social media experience for small groups, allowing them to meet online or facilitate in person meetings."
+	},{
+		title: "Triple R Construction, Co. LLC",
+		src: "//www.placekitten.com/660/460",
+		description: "I am currently desigining and coding a custom Wordpress theme for a local general contractor."
 	}];
-});
-
-
-$(".main-nav a").on("click",function(){
-    // Handled by Angular.js - event watching to prevent hash change
 });
