@@ -67,5 +67,9 @@ app.controller("MainCtrl", function($scope){
 		title: "Triple R Construction, Co. LLC",
 		src: "//www.placekitten.com/660/460",
 		description: "I am currently desigining and coding a custom Wordpress theme for a local general contractor."
+	},{
+		title: "Your Next Project",
+		src: "//www.placekitten.com/g/600/400",
+		description: "I'm currently available for hire! Please feel free to contact me with your next big idea!"
 	}];
 });
