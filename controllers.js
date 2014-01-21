@@ -65,3 +65,8 @@ app.controller("MainCtrl", function($scope){
 		description: "This is a personal project I'm working on for my church that aims to provide a social media experience for small groups, allowing them to meet online or facilitate in person meetings."
 	}];
 });
+
+
+$(".main-nav a").on("click",function(){
+    // Handled by Angular.js - event watching to prevent hash change
+});
