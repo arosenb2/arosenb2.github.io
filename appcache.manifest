@@ -1,11 +1,12 @@
 CACHE MANIFEST
-# Timestamp: 1395851891454
+# Timestamp: 1395858654895
 
 # Explicitly cached 'master entries'.
 CACHE:
 
 # Images
 build/img/other/bg.png
+build/img/other/650x450.png
 
 # Internal HTML documents
 index.html
@@ -13,6 +14,13 @@ index.html
 # Style Sheets
 build/css/style.min.css
 build/css/font-awesome.min.css
+
+# Fonts
+build/fonts/fontawesome-webfont.eot
+build/fonts/fontawesome-webfont.svg
+build/fonts/fontawesome-webfont.ttf
+build/fonts/fontawesome-webfont.woff
+build/fonts/FontAwesome.otf
 
 # JavaScript
 http://platform.twitter.com/widgets.js
