@@ -42,7 +42,7 @@ module.exports = function(grunt) {
         concat: {
             css: {
                 files: {
-                    'build/css/style.css' : ['build/css/bootstrap.min.css','build/css/bootstrap-theme.min.css','build/css/font-awesome.min.css']
+                    'build/css/app.css' : ['build/css/bootstrap.min.css','build/css/bootstrap-theme.min.css','build/css/font-awesome.min.css']
                 }
             },
             js: {
@@ -54,7 +54,8 @@ module.exports = function(grunt) {
         cssmin: {
             css: {
                 files: {
-                    'build/css/app.min.css' : ['build/css/style.css']
+                    'build/css/app.min.css' : ['build/css/app.css'],
+                    'src/css/style.min.css' : ['src/css/style.css']
                 }
             }
         }
