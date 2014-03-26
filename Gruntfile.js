@@ -64,5 +64,5 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('default', ['uglify','concat','cssmin']);
+    grunt.registerTask('default', ['uglify','concat','cssmin','imagemin']);
 };
