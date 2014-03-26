@@ -9,13 +9,12 @@
   },
   "author": "Aaron Rosenbaum <aaron.rosenbaum@gmail.com>",
   "license": "None",
-  "bugs": {
-    "url": "https://github.com/arosenb2/arosenb2.github.io/issues"
-  },
   "homepage": "https://arosenb2.github.io/",
   "devDependencies": {
     "grunt": "*",
+    "grunt-contrib-concat": "*",
     "grunt-contrib-uglify": "*",
+    "grunt-contrib-cssmin": "*",
     "grunt-contrib-imagemin": "*",
     "grunt-contrib-htmlmin": "*",
     "load-grunt-tasks": "*",
