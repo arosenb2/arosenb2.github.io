@@ -72,11 +72,7 @@ app.controller("MainCtrl", function($scope){
 	},{
 		title: "Custom Building Solutions Inc.",
 		src: "//www.placekitten.com/660/460",
-<<<<<<< HEAD
 		description: "I am currently desigining and coding a custom Wordpress theme for a local general contractor.",
         slideshow:[]
-=======
-		description: "I am currently desigining and coding a custom Wordpress theme for a local general contractor."
->>>>>>> FETCH_HEAD
 	}];
 });
