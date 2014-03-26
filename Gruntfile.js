@@ -32,18 +32,22 @@ module.exports = function(grunt) {
                 ]
             }
         },
-        concat: {
-            basic_and_extras: {
-                files: {
-                    'build/css/style.css' : ['build/css/bootstrap.min.css','build/css/bootstrap-theme.min.css','build/css/font-awesome.min.css'],
-                    'build/js/app.js' : ['build/js/angular.min.js','build/js/angular.sanitize.min.js','controllers.min.js']
-                }
-            }
-        },
         uglify: {
             js: {
                 files: {
-                    'build/js/app.min.js' : ['build/js/app.js']
+                    'build/js/controllers.min.js' : ['src/js/controllers.js']
+                }
+            }
+        },
+        concat: {
+            css: {
+                files: {
+                    'build/css/style.css' : ['build/css/bootstrap.min.css','build/css/bootstrap-theme.min.css','build/css/font-awesome.min.css']
+                }
+            },
+            js: {
+                files:{
+                    'build/js/app.min.js' : ['build/js/angular.min.js','build/js/angular.sanitize.min.js','controllers.min.js']
                 }
             }
         },
@@ -59,5 +63,5 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('default', ['concat','uglify','cssmin']);
+    grunt.registerTask('default', ['uglify','concat','cssmin']);
 };
