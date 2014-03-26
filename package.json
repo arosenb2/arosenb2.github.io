@@ -1,0 +1,18 @@
+{
+  "name": "arosenb2.github.io",
+  "version": "0.0.1",
+  "description": "My Personal Portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arosenb2/arosenb2.github.io.git"
+  },
+  "author": "Aaron Rosenbaum <aaron.rosenbaum@gmail.com>",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/arosenb2/arosenb2.github.io/issues"
+  },
+  "homepage": "https://arosenb2.github.io/",
+  "devDependencies": {
+    "grunt": "^0.4.4"
+  }
+}
