@@ -177,18 +177,10 @@
 			</div>	
 		</div>
 	</footer>
-	<script type="text/javascript">
-		function addStylesheet(link){
-			var stylesheet = document.createElement("link");
-			stylesheet.href = link;
-			stylesheet.rel = "stylesheet";
-			document.getElementsByTagName('head')[0].appendChild(stylesheet);
-		}
-		addStylesheet("build/css/style.min.css");
-		addStylesheet("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
-	</script>
 	<script async src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
 	<script async src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-sanitize.min.js"></script>
-	<script src="build/js/controllers.min.js"></script>
+	<script async src="build/js/controllers.min.js"></script>
 </body>
 </html>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="build/css/style.min.css">
