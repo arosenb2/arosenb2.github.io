@@ -1,24 +1,24 @@
 CACHE MANIFEST
-# Timestamp: 1395802937171
+# Timestamp: 1395849768135
 
 # Explicitly cached 'master entries'.
 CACHE:
 
 # Images
-bg.png
+build/img/other/bg.png
 
 # Internal HTML documents
 index.html
 
 # Style Sheets
-style.min.css
+build/css/style.min.css
 http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css
 
 # JavaScript
 http://platform.twitter.com/widgets.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js
 http://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-sanitize.js
-controllers.js
+build/js/controllers.min.js
 
 # Resources that require the user to be online.
 NETWORK:

@@ -2,16 +2,13 @@
 <html lang="en" manifest="appcache.manifest" ng-app="app">
 <head>
 	<title>Aaron Rosenbaum | Modern | Front-End | Mobile</title>
-
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-title" content="Rosenbaum">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="mobile-web-app-capable" content="yes"> <!-- For Android Users -->
-    
 </head>
 <body ng-controller="MainCtrl">
 	<section id="status-bar"></section>
@@ -187,12 +184,11 @@
 			stylesheet.rel = "stylesheet";
 			document.getElementsByTagName('head')[0].appendChild(stylesheet);
 		}
-		addStylesheet("style.min.css");
+		addStylesheet("build/css/style.min.css");
 		addStylesheet("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
 	</script>
-	
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-sanitize.js"></script>
-	<script src="controllers.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-sanitize.min.js"></script>
+	<script src="build/js/controllers.min.js"></script>
 </body>
 </html>
