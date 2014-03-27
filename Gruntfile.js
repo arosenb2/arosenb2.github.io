@@ -47,7 +47,7 @@ module.exports = function(grunt) {
             },
             js: {
                 files:{
-                    'build/js/app.min.js' : ['build/js/angular.min.js','build/js/angular.sanitize.min.js','build/js/controllers.min.js']
+                    'build/js/app.min.js' : ['build/js/angular.min.js','build/js/angular.sanitize.min.js','build/js/controllers.min.js','build/js/jquery.min.js','build/js/bootstrap.min.js']
                 }
             }
         },
@@ -64,5 +64,5 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('default', ['uglify','concat','cssmin','imagemin']);
+    grunt.registerTask('default', ['uglify','concat','cssmin']);
 };
