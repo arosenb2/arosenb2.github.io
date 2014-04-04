@@ -47,7 +47,7 @@ module.exports = function(grunt) {
             },
             js: {
                 files:{
-                    'build/js/app.min.js' : ['build/js/angular.min.js','build/js/angular.sanitize.min.js','build/js/controllers.min.js','build/js/jquery.min.js','build/js/bootstrap.min.js']
+                    'build/js/app.min.js' : ['build/js/angular.min.js','build/js/angular.sanitize.min.js','build/js/angular.route.min.js','build/js/controllers.min.js','build/js/jquery.min.js','build/js/bootstrap.min.js']
                 }
             }
         },

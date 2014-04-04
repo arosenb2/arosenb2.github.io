@@ -47,7 +47,11 @@ nav{
 	color:#fff;
 }
 .close-section{
-	padding-top:5px;
+	padding: 10px 15px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #fff;
+    font-size: 17px;
+    margin-top: -6px;
 }
 #tech .col-sm-4{
     min-height:240px;
@@ -76,6 +80,8 @@ footer .col-sm-6:last-child{
     .main-nav.affix{
         position:fixed;
         z-index:1000;
+        left:0;
+        right:0;
     }
 }
 @media screen and (max-width: 767px and orientation:landscape){

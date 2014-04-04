@@ -1,0 +1,17 @@
+<div id="portfolio">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Digital Portfolio <a href="#" class="close-section pull-right" ng-click="go('')"><i class="fa fa-times"></i> Close</a></h3>
+            <p class="lead">For your viewing pleasure, this is a collection of my best work.</p>
+            <p>At the end of the day, we all want to tell a story. Part of my story is through the work I do. Each of these projects represent different facets of my skills and the potential I bring to the table.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3" ng-repeat="project in projects">
+            <a href="#portfolio/{{ $index }}">
+                <img ng-src="{{project.src}}" alt="{{project.title}}" title="{{project.description}}" class="img-thumbnail img-responsive center-block" />
+                <p class="text-right text-muted"><small><em ng-bind-html="project.title"></em></small></p>
+            </a>
+        </div>
+    </div>
+</div>
