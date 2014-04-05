@@ -90,15 +90,12 @@ footer .col-sm-6:last-child{
     }
 }
 .label{
-	display:inline-block;
-	background: #428bca;
-	color: #fff;
-	padding: 3px 5px;
+	display: inline-block;
+	background: #333;
+	color: #428bca;
+	padding: 4px 8px;
 	border-radius: 4px;
-	margin: 5px;
-	font-weight: 700;
-	text-shadow: 0 1px 1px #000;
-	border: 1px solid #333;
+	margin: 4px;
 	font-size: 12px;
-	box-shadow: 0 0 3px 0px #333;
+	box-shadow: 0 0 2px 0 #fff;
 }
