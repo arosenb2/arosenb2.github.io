@@ -97,7 +97,7 @@ app.service("projectService",function(){
     };
 });
 
-app.service("indicatorService",["$rootScope",function($rootScope){
+app.service("indicatorService",["$rootScope","$window",function($rootScope,$window){
     return {
         reset : function(){
             $rootScope.main = false;
@@ -105,6 +105,8 @@ app.service("indicatorService",["$rootScope",function($rootScope){
             $rootScope.tech = false;
             $rootScope.portfolio = false;
             $rootScope.resume = false;
+			
+			$window.scrollTo(0,0);
         },
         setActive : function(page){
             this.reset();
