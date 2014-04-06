@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Timestamp: 1396751539434
+# Timestamp: 1396751727923
 
 # Explicitly cached 'master entries'.
 CACHE:
@@ -10,7 +10,6 @@ build/img/other/650x450.png
 
 # Internal HTML documents
 index.html
-views/home.html
 views/about.html
 views/tech.html
 views/portfolio.html
