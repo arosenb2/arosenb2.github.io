@@ -166,6 +166,7 @@ app.controller("PageCtrl",["$scope","$location","indicatorService","projectServi
     $scope.projects = projectService.getProjects();
 }]);
 
-app.controller("DetailsCtrl",["$scope","$routeParams","projectService",function($scope,$routeParams,projectService){
+app.controller("DetailsCtrl",["$scope","$routeParams","$window","projectService",function($scope,$routeParams,$window,projectService){
     $scope.project = projectService.getProject($routeParams.id);
+	$window.scrollTo(0,0);
 }]);
