@@ -32,7 +32,7 @@ module.exports = function(grunt) {
                 ]
             }
         },
-        uglify: {
+        min: {
             js: {
                 files: {
                     'build/js/controllers.min.js' : ['src/js/controllers.js']
@@ -64,5 +64,5 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('default', ['uglify','concat','cssmin']);
+    grunt.registerTask('default', ['concat','cssmin','min']);
 };

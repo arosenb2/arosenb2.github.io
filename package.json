@@ -13,8 +13,7 @@
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-concat": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-cssmin": "*",
+	"grunt-yui-compressor": "*",
     "grunt-contrib-imagemin": "*",
     "grunt-contrib-htmlmin": "*",
     "load-grunt-tasks": "*",
