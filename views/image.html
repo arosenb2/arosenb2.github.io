@@ -1,0 +1,19 @@
+<div id="image" ng-controller="ImageCtrl">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3><span ng-bind-html="image.parent.title"></span> <a href="#portfolio/{{image.parent.id}}" class="close-section pull-right"><i class="fa fa-arrow-left"></i> Back</a></h3>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="{{image.next}}">
+          <img ng-src="build/img/screenshots/{{image.source}}.png" alt="{{image.parent.title}}" title="{{image.parent.title}}" class="img-thumbnail-large img-responsive center-block" />
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="lead" ng-bind-html="image.description"></p>
+      </div>
+    </div>
+  </div>
+</div>

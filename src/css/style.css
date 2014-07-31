@@ -3,7 +3,7 @@ html,body {
 }
 
 body {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
 	background:url(../img/other/bg.png); /* Credits to SubtlePatterns.com */
 }
@@ -24,7 +24,7 @@ nav{
 .main-nav div{
 	background:#333;
 	color:#ddd;
-	
+
 	text-align:center;
 	border-left:1px solid #ddd;
 	border-bottom:1px solid #ddd;
@@ -35,7 +35,9 @@ nav{
 .main-nav div.active{
 	background:#0af;
 }
-
+.spacer {
+	margin-top:10px;
+}
 .main-nav a{
 	display:block;
 
@@ -72,7 +74,7 @@ footer .col-sm-6:last-child{
 	footer .col-xs-12 p{
 		text-align:center;
 	}
-    
+
     nav{
         height:122px;
         z-index:1000;
@@ -84,7 +86,7 @@ footer .col-sm-6:last-child{
         right:0;
     }
 }
-@media screen and (max-width: 767px and orientation:landscape){
+@media screen and (orientation:landscape){
     .main-nav.affix{
         position:static !important;
     }
@@ -98,4 +100,13 @@ footer .col-sm-6:last-child{
 	margin: 4px;
 	font-size: 12px;
 	box-shadow: 0 0 2px 0 #fff;
+}
+
+.presented{
+	transition:all 0.3s ease-in-out;
+	position:absolute;
+	top:50px;
+	max-height:400px !important;
+	width:auto !important;
+	margin:0 auto;
 }

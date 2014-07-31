@@ -27,6 +27,9 @@ app.config(['$routeProvider',function($routeProvider){
     }).when("/portfolio/:id",{
       controller: "DetailsCtrl",
       templateUrl: "views/portfolio-details.html"
+    }).when("/portfolio/:parentId/:imageId",{
+      controller: "ImageCtrl",
+      templateUrl: "views/image.html"
     }).when("/work",{
       controller: "PageCtrl",
       templateUrl: "views/work.html"
@@ -312,3 +315,18 @@ app.controller("DetailsCtrl",["$scope","$routeParams","$window","projectService"
   $scope.project = projectService.getProject($routeParams.id);
 	$window.scrollTo(0,0);
 }]);
+
+app.controller("ImageCtrl",["$scope","$routeParams","$window","projectService",function($scope,$routeParams,$window,projectService){
+  $scope.project = projectService.getProject($routeParams.parentId);
+  $scope.image = {};
+  $scope.image.parent = {};
+  $scope.image.parent.id = $routeParams.parentId;
+  $scope.image.parent.title = $scope.project.title;
+  $scope.image.source = $scope.project.key + "%20" + ($routeParams.imageId);
+  $scope.image.description = $scope.project.images[$routeParams.imageId-1]
+
+  var nextId = parseInt($routeParams.imageId) + 1
+  $scope.image.next = nextId <= $scope.project.images.length ? "#portfolio/" + $scope.image.parent.id + "/" + nextId : "#portfolio/" + $scope.image.parent.id;
+
+  $window.scrollTo(0,0);
+}])

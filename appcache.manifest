@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Timestamp: 1396881230014
+# Timestamp: 1406830843360
 
 # Explicitly cached 'master entries'.
 CACHE:
@@ -64,6 +64,7 @@ views/about.html
 views/tech.html
 views/portfolio.html
 views/portfolio-details.html
+views/image.html
 views/work.html
 
 # Style Sheets
