@@ -9,7 +9,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3" ng-repeat="project in projects">
             <a href="#portfolio/{{ $index }}">
-                <img ng-src="{{project.src}}" alt="{{project.title}}" title="{{project.description}}" class="img-thumbnail img-responsive center-block" />
+                <img ng-src="build/img/screenshots/{{project.key}}%20{{project.cover}}.png" alt="{{project.title}}" title="{{project.description}}" class="img-thumbnail img-responsive center-block" />
                 <p class="text-right text-muted"><small><em ng-bind-html="project.title"></em></small></p>
             </a>
         </div>
