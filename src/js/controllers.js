@@ -102,10 +102,46 @@ app.service("projectService",function(){
         "In a client-specific redesign, we modified our IQ Suite 2.0 template to provide users further clarity."
       ],
       cbs: [ //0
-
+        // "Screenshots coming soon."
       ],
-      github: [ //0
-
+      hfsg: [ //0
+        // "Screenshots coming soon."
+      ],
+      engineering: [ //0
+        // "Screenshots coming soon."
+      ],
+      github: [ //5
+        "The initial screen has been optimized for fast loading on both mobile and desktop. It features a responsive design combined with Angular.js for a Single-Page-Application.",
+        "The portfolio screen lists projects that I felt were relevant in my skillset.",
+        "Each project lists a description and has a cover photo. Data is passed through a service with hard-coded data in the Angular application.",
+        "This is a continuation of the listing for a project. It shows the technologies used as well as sample screenshots.",
+        "Screenshots are each individually accompanied by descriptions. Each image is also a link to the next image in the series."
+      ],
+      vets: [ //6
+        "Upon loading, users will have a way to enter in vital information, such as medical conditions. This is useful for case workers.",
+        "The map view is considered the main landing screen. It shows different types of facilities available for veterans, such as clinics, legal services and VA hospitals.",
+        "Selecting a map marker reveals the address of the facility and a button to get more information about the facility.",
+        "The details screen calculates the distance of the facility from the user while also providering directions and other relevant information.",
+        "All Resources shows the facilities around the user in a list rather than on the map. It can sort the facilities by type or name.",
+        "In case of an emergency, we provide 1-touch access to important emergency resources, such as the Suicide Prevention Hotline."
+      ],
+      irs: [ //10
+        "The IRS ACA 5.0 RMS iPhone app is a specialized version of CGI IQ Suite &reg; Mobile.",
+        "It features a graphical design that corresponds with the web version, as well as a functional design that optimizes the layouts for the smaller screen size.",
+        "Once data is downloaded, items are progressively set to a completed state, showing the user that they are ready to receive actions.",
+        "The list view shows color coordinated priority filters, as well as a state switching metric on top.",
+        "When a filter is selected, the bar beneath the filter changes color to match the selected filter while the arrow moves across the screen to show your selection. In this case, several Hot Topic items are also considered to be a High priority.",
+        "Similarly, for the Hot Topics KPI, it shows a disabled state for the other filters.",
+        "Creating a functional dashboard required considerable planning for a phone screen. For time-series data, we provide several KPIs that act as switches for the graph below.",
+        "On the desktop version, this information is displayed as a pie chart. Having over 12 different series, we designed a mobile optimized version that displays the information in a better way.",
+        "The Risk Rating matrix was created using the proper application of <code>&lt;table&rt;</code> tags. Each box allows users to drill down to the corresponding data.",
+        "Being a native app, we have a bridge that allows us to call back to native Objective C code and standard Cocoa Touch components, such as UIAlertView."
+      ],
+      irs2: [ //4
+        "As part of a proof of concept in using a REST web service for our mobile apps, I developed a limited version of the IRS app using only native code. This project mainly uses the new language, Swift.",
+        "I created custom Cocoa Touch components and utilized the Xcode 6 enhancement of live previews to assist in the design and placement.",
+        "The fully native app involved subclassing different components and optimizing calculations in the data model to ensure speed and accuracy.",
+        "By switching to native code and having access to full hardware acceleration, the app is much smoother and loads faster than the hybrid counterpart."
       ]
     }
 
