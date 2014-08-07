@@ -196,7 +196,7 @@ app.service("projectService",function(){
     },{
       id:7,
       title: "IRS ACA 5.0 RMS (Hybrid)",
-      cover: 1,
+      cover: 5,
       description: "Our IRS team needed a version of IQ Suite Mobile that better reflected the style of the web for better continuity. In this redesign, sliding filters and a reminders modal were added to provide similar desktop functionality while on an iPhone.",
       tags:["HTML5","CSS3","jQuery","Objective C","iOS","JSON","PHP"],
       key: "irs",
@@ -204,7 +204,7 @@ app.service("projectService",function(){
     },{
       id:8,
       title: "IRS ACA 5.0 RMS (Native)",
-      cover: 1,
+      cover: 2,
       description: "As projects grew and more data was added, our hybrid app started to grow slower in loading and parsing times, due to the single-threaded nature of JavaScript. The native app utilizes better async technologies and background threads to provide a dramatic speed increase.",
       tags:["Swift","iOS","JSON","REST"],
       key: "irs2",
@@ -228,7 +228,7 @@ app.service("projectService",function(){
     },{
       id:11,
   		title: "Vets Guide",
-  		cover: 1,
+  		cover: 2,
   		description: "This app for iPhone was used in a demo with the Department of Veteran's Affairs to help provide services to those who have returned from serving their country. It showed local and regional VA clinics, food pantries, etc.",
       tags:["Objective C","iOS","PHP","MySQL"],
       key: "vets",
