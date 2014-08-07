@@ -269,7 +269,7 @@ app.service("projectService",function(){
     },{
       id:14,
 		  title: "Highlands Fellowship Small Groups",
-		  cover: 1,
+		  cover: 4,
       description: "This is a personal project I'm working on for my church that aims to provide a social media experience for small groups, allowing them to meet online or facilitate in person meetings.",
       tags:["HTML5","CSS3","Responsive Web Design","AngularJS","Node.js","Passport.js","Mongoose.js","MongoDB","Jade","Web Design"],
       key: "hfsg",
