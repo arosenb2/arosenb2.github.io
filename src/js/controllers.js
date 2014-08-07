@@ -3,12 +3,18 @@
 */
 var app = angular.module("app",["ngRoute","ngSanitize"]);
 
-app.run(['$rootScope',function($rootScope){
+app.run(['$rootScope','$location',function($rootScope,$location){
   $rootScope.main = true,
   $rootScope.about = false,
   $rootScope.tech = false,
   $rootScope.portfolio = false,
   $rootScope.work = false;
+
+  var tracker = "UA-53641302-1";
+
+  $rootScope.$on('$routeChangeSuccess', function(){
+    ga('send', 'pageview', $location.path());
+  });
 }]);
 
 app.config(['$routeProvider',function($routeProvider){
@@ -101,11 +107,18 @@ app.service("projectService",function(){
       crms: [ //1
         "In a client-specific redesign, we modified our IQ Suite 2.0 template to provide users further clarity."
       ],
-      cbs: [ //0
-        // "Screenshots coming soon."
+      cbs: [ //5
+        "Custom Building Solutions, Inc. is a local general contracting company. They were seeking to utilize web technologies to differentiate them from other competition in the area.",
+        "As you scroll, the main menu is affixed to the top of the screen. The footer menu uses a parallax technique to slide out from under the content.",
+        "Depending on the screen size, you get an optimized view for each device you use. Currently showing is the iPad/tablet view.",
+        "In addition to having a responsive style for mobile devices, I also used front end optimization techniques to speed up loading time.",
+        "Instead of using a slide out menu for the hamburger icon, users are auto scrolled to the full menu at the bottom of the screen."
       ],
-      hfsg: [ //0
-        // "Screenshots coming soon."
+      hfsg: [ //4
+        "This is the concept landing page for Highlands Fellowship Small Groups. It gives a simple introduction to the main styles used in the web app.",
+        "Once logged in, users are asked to fill out a small questionaire. After they are placed in groups, they show up on an overview screen.",
+        "Users are able to post information to their different groups without leaving the home page.",
+        "The site is responsive so users can check the latest happenings while on their phones."
       ],
       engineering: [ //0
         // "Screenshots coming soon."
@@ -142,6 +155,10 @@ app.service("projectService",function(){
         "I created custom Cocoa Touch components and utilized the Xcode 6 enhancement of live previews to assist in the design and placement.",
         "The fully native app involved subclassing different components and optimizing calculations in the data model to ensure speed and accuracy.",
         "By switching to native code and having access to full hardware acceleration, the app is much smoother and loads faster than the hybrid counterpart."
+      ],
+      blog: [ //2
+        "Before Material Design was announced at Google I/O, I had started a design concept based off of cards and shadowing.",
+        "As with other designs, this gracefully accomodates smaller screen sizes with the same level of legibility of larger ones."
       ]
     }
 
@@ -254,7 +271,7 @@ app.service("projectService",function(){
 		  title: "Highlands Fellowship Small Groups",
 		  cover: 1,
       description: "This is a personal project I'm working on for my church that aims to provide a social media experience for small groups, allowing them to meet online or facilitate in person meetings.",
-      tags:["HTML5","CSS3","Responsive Web Design","AngularJS","Node.js","Passport.js","Mongoose.js","MongoDB","Web Design"],
+      tags:["HTML5","CSS3","Responsive Web Design","AngularJS","Node.js","Passport.js","Mongoose.js","MongoDB","Jade","Web Design"],
       key: "hfsg",
       images:gallery["hfsg"]
     },{
@@ -262,9 +279,17 @@ app.service("projectService",function(){
 		  title: "Custom Building Solutions Inc.",
   		cover: 1,
   		description: "I am currently desigining and coding a custom Wordpress theme for a local general contractor.",
-      tags:["HTML5","CSS3","Responsive Web Design","Wordpress","Web Design"],
+      tags:["HTML5","CSS3","Responsive Web Design","Wordpress","Web Design","Grunt.js", "Pagespeed Optimization"],
       key: "cbs",
       images:gallery["cbs"]
+    },{
+      id:16,
+      title: "Front End Frenzy",
+      cover: 1,
+      description: "In my spare time, I've been working on a theme for a blog that I hope to start soon, focusing on modern front-end and mobile techniques.",
+      tags:["HTML5","CSS3","Responsive Web Design","Web Design"],
+      key: "blog",
+      images:gallery["blog"]
     }
   ];
 
