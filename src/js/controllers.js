@@ -370,6 +370,8 @@ app.controller("PageCtrl",["$scope","$location","indicatorService","projectServi
       $location.path("/"+path);
 	};
   $scope.projects = projectService.getProjects();
+  $scope.email = atob("PGEgaHJlZj0nbWFpbHRvOmFhcm9uLnJvc2VuYmF1bUBnbWFpbC5jb20nPmFhcm9uLnJvc2VuYmF1bUBnbWFpbC5jb208L2E+");
+  $scope.phone = atob("PGEgaHJlZj0ndGVsOjE3NzA4NDE4NzI3Jz4oNzcwKSA4NDEtODcyNzwvYT4=");
 }]);
 
 app.controller("DetailsCtrl",["$scope","$routeParams","$window","projectService",function($scope,$routeParams,$window,projectService){
