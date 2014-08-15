@@ -57,29 +57,13 @@ module.exports = function(grunt) {
                     'build/css/app.min.css' : ['build/css/app.css'],
                     'src/css/style.min.css' : ['src/css/style.css']
                 }
-            },
-            critical: {
-              files: {
-                'critical.min.css' : ['critical.css']
-              }
             }
-        },
-        htmlmin: {
-          dist: {                                      // Target
-            options: {                                 // Target options
-              removeComments: true,
-              collapseWhitespace: true
-            },
-            files: {                                   // Dictionary of files
-              'index.html': 'index.original.html',     // 'destination': 'source'
-            }
-          }
         }
     });
 
     require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('default', ['concat','cssmin','min']);
-    grunt.registerTask('critical',['htmlmin','cssmin:critical']);
+    grunt.registerTask('default', ['min','concat','cssmin']);
+    grunt.registerTask('js',['min','concat']);
 };
